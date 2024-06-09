@@ -15,7 +15,7 @@ if [ ! -f $kali_qcow ]; then
 	  	pip install py7zr
 	fi
 	
-  	# Extract the archive using Python
+  	# Extract the archive using Python :0
   	echo "Extracting $archive_file"
   	python3 -m py7zr x $archive_file $install_dir
  	echo "Extraction complete!"
