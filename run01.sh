@@ -1,8 +1,8 @@
 #!/bin/bash 
 
-install_dir="/goinfre/$USER/"
+install_dir="/goinfre/elitesec/"
 archive_file="kali-linux-2025.1c-qemu-amd64.7z"
-kali_qcow="/goinfre/$USER/kali-linux-2025.1c-qemu-amd64.qcow2"
+kali_qcow="/goinfre/elitesec/kali-linux-2025.1c-qemu-amd64.qcow2"
 
 if [ ! -f $kali_qcow ]; then
     if [ ! -f $archive_file ]; then
