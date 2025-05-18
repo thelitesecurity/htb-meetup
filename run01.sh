@@ -22,7 +22,7 @@ if [ ! -f $kali_qcow ]; then
       python3 -m py7zr x $archive_file $install_dir
      echo "Extraction complete!"
     rm -f $archive_file
-     cp run.sh ~/
+     cp run01.sh ~/run.sh
       chmod u+x ~/run.sh
 fi
 
